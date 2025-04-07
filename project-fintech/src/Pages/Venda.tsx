@@ -12,7 +12,8 @@ const Venda = () => {
   );
 
   if (data === null) return null;
-  if (loading === true) return <Loading />;
+
+  if (loading) return <Loading />;
 
   return (
     <div>
