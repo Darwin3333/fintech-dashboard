@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  PropsWithChildren,
-  useContext,
-  useState,
-  useEffect,
-} from 'react';
+import React, { createContext, PropsWithChildren, useState } from 'react';
 import { useFetch } from '../Hooks/useFetch';
 
 type IDataContext = {
@@ -19,7 +13,7 @@ type IDataContext = {
   setFinal: React.Dispatch<React.SetStateAction<string>>;
 };
 
-type IVenda = {
+export type IVenda = {
   //a opi retorna uma lista com objetos.
   id: string;
   nome: string;
