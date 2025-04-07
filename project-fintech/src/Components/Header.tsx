@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useData } from '../Context/DataContext';
 import DateRange from '../Context/DateRange';
+import Meses from './Meses';
 
 const Header = () => {
+  const [title, setTitle] = useState('Resumo');
   return (
-    <div>
-      <DateRange />
-    </div>
+    <header className="mb">
+      <div className="daterange mb">
+        <DateRange />
+        <h1 className="box bg-3">{title}</h1>
+      </div>
+      <Meses />
+    </header>
   );
 };
 
