@@ -1,4 +1,3 @@
-import React from 'react';
 import MesBtn from './MesBtn';
 //componente Meses retorna 3 componentes MesBtn,
 const Meses = () => {

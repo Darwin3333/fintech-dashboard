@@ -1,5 +1,7 @@
 import React, { createContext, PropsWithChildren, useState } from 'react';
 import { useFetch } from '../Hooks/useFetch';
+import { Dispatch } from 'react';
+import { SetStateAction } from 'react';
 
 type IDataContext = {
   //a data retornando é do tipo []
@@ -9,8 +11,8 @@ type IDataContext = {
   error: string | null; //este | eh o ou para tipos o || para execução
   inicio: string;
   final: string;
-  setInicio: React.Dispatch<React.SetStateAction<string>>;
-  setFinal: React.Dispatch<React.SetStateAction<string>>;
+  setInicio: Dispatch<SetStateAction<string>>;
+  setFinal: Dispatch<SetStateAction<string>>;
 };
 
 export type IVenda = {
