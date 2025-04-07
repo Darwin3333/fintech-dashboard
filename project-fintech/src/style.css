@@ -1,9 +1,10 @@
 html {
-  --color-1: #463220;
-  --color-2: #66593c;
-  --color-3: #eceadd;
-  --color-4: #f7f8f5;
-  --color-5: #ffffff;
+  --color-1: #f0f1f5; /* Textos principais, ícones */
+  --color-2: #ffffff; /* Destaques / ícones ativos */
+  --color-3: #373f4e; /* Fundo do menu lateral / cards */
+  --color-4: #212631; /* Fundo do conteúdo principal */
+  --color-5: #667085; /* Fundo de tela / áreas mais profundas */
+
   --gap-s: 0.625rem;
   --gap: 1.25rem;
 }
