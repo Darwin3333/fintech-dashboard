@@ -19,7 +19,7 @@ Interface moderna em dark mode com foco em:
 
 ### 🧭 Tela Principal e gráfico de pagamentos
 
-![Tela pricipal](/public/screeshots/resumo.png)
+![Tela pricipal](/screenshots/resumo.png)
 
 ---
 
