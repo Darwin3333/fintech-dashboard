@@ -3,13 +3,12 @@ import { useData } from '../Context/DataContext';
 
 const resumo = () => {
   const { data } = useData();
-
   if (data === null) return null;
   return (
     <section>
       <div className="resumo flex mb">
-        <div className="box">
-          <h2>Vendas</h2>
+        <div className="box" style={{ background: '#373f4e' }}>
+          <h2 style={{ color: '#eb4d4b' }}>Vendas</h2>
           <span>
             {data
               .filter((i) => i.status !== 'falha')
@@ -17,8 +16,8 @@ const resumo = () => {
               .toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
           </span>
         </div>
-        <div className="box">
-          <h2>Recebido</h2>
+        <div className="box" style={{ background: '#373f4e' }}>
+          <h2 style={{ color: '#6ab04c' }}>Recebido</h2>
           <span>
             {data
               .filter((i) => i.status === 'pago')
@@ -26,8 +25,8 @@ const resumo = () => {
               .toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
           </span>
         </div>
-        <div className="box">
-          <h2>A receber</h2>
+        <div style={{ background: '#373f4e' }} className="box">
+          <h2 style={{ color: '#f9ca24' }}>A receber</h2>
           <span>
             {data
               .filter((i) => i.status === 'processando')
@@ -36,7 +35,7 @@ const resumo = () => {
           </span>
         </div>
       </div>
-      <div className="box venda"></div>
+      <hr className="hr" />
       <GraficoVendas data={data} />
     </section>
   );

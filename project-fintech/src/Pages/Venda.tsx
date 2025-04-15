@@ -17,7 +17,6 @@ const Venda = () => {
 
   return (
     <div>
-      <Loading />
       <div className="box mb">ID: {data.id}</div>
       <div className="box mb">Nome: {data.nome}</div>
       <div className="box mb">

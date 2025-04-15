@@ -48,14 +48,14 @@ const GraficoVendas = ({ data }: { data: IVenda[] }) => {
         <Tooltip />
         <Legend />
 
-        <Line type="monotone" dataKey="pago" strokeWidth={3} stroke="green" />
+        <Line type="monotone" dataKey="pago" strokeWidth={3} stroke="#6ab04c" />
         <Line
           type="monotone"
           dataKey="processando"
           strokeWidth={3}
-          stroke="#FBCB21"
+          stroke="#f9ca24"
         />
-        <Line type="monotone" dataKey="falha" stroke="red" />
+        <Line type="monotone" dataKey="falha" stroke="purple" />
       </LineChart>
     </ResponsiveContainer>
   );
