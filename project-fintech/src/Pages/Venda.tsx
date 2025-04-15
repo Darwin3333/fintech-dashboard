@@ -12,23 +12,29 @@ const Venda = () => {
   );
 
   if (data === null) return null;
-
-  if (loading) return <Loading />;
+  //console.log(loading);
+  //if (loading) return <Loading />;
 
   return (
-    <div>
-      <div className="box mb">ID: {data.id}</div>
-      <div className="box mb">Nome: {data.nome}</div>
-      <div className="box mb">
-        Preço:
-        {data.preco.toLocaleString('pt-br', {
-          style: 'currency',
-          currency: 'BRL',
-        })}
-      </div>
-      <div className="box mb">ID: {data.status}</div>
-      <div className="box mb">Método: {data.pagamento}</div>
-    </div>
+    <>
+      {loading ? (
+        <Loading />
+      ) : (
+        <div>
+          <div className="box mb">ID: {data.id}</div>
+          <div className="box mb">Nome: {data.nome}</div>
+          <div className="box mb">
+            Preço:
+            {data.preco.toLocaleString('pt-br', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
+          </div>
+          <div className="box mb">ID: {data.status}</div>
+          <div className="box mb">Método: {data.pagamento}</div>
+        </div>
+      )}
+    </>
   );
 };
 export default Venda;
