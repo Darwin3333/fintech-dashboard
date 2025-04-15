@@ -15,6 +15,14 @@ Interface moderna em dark mode com foco em:
 
 ---
 
+## 📸 Capturas de Tela
+
+### 🧭 Tela Principal e gráfico de pagamentos
+
+![Tela pricipal](/public/screeshots/resumo.png)
+
+---
+
 ## 🚀 Funcionalidades
 
 - 📊 **Gráfico Interativo** com Recharts para visualização de status de pagamentos
