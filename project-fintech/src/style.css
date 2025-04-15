@@ -23,6 +23,7 @@ body {
   padding: var(--gap);
   border-radius: var(--gap);
   background: var(--color-5);
+  margin-bottom: 1rem;
 }
 
 button {
@@ -183,4 +184,9 @@ ul {
   .venda div:last-child {
     justify-self: start;
   }
+}
+
+.hr {
+  outline: 2px solid var(--color-5);
+  margin-bottom: 2rem;
 }
