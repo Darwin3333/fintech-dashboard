@@ -1,61 +1,54 @@
-# 💰 Fintech Dashboard
+💰 Fintech Dashboard
+The Fintech Dashboard is a web application developed with React + TypeScript, focused on providing a clear, responsive, and interactive visualization of financial data. The interface offers insights into sales, receipts, and pending amounts, with visual representation in charts and indicators.
 
-O **Fintech Dashboard** é uma aplicação web desenvolvida com **React + TypeScript**, focada em visualização de dados financeiros de forma clara, responsiva e interativa. A interface oferece insights sobre **vendas, recebimentos e valores pendentes**, com representação visual em gráficos e indicadores.
+🖼️ Overview
+A modern dark mode interface with a focus on:
 
----
+Prominently displayed financial indicators
 
-## 🖼️ Visão Geral
+Payment status charts: ✅ Paid, 🕐 Processing, ❌ Failed
 
-Interface moderna em dark mode com foco em:
+Fluid navigation between pages with React Router
 
-- Indicadores financeiros em destaque
-- Gráficos de status de pagamentos: ✅ Pago, 🕐 Processando, ❌ Falha
-- Navegação fluida entre páginas com React Router
-- Código limpo e componentizado com estilo aplicado via `style.css` + `CSSProperties`
+Clean, component-based code with styling applied via style.css + CSSProperties
 
----
+📸 Screenshots
+🧭 Main Screen and Payments Chart
+🚀 Features
+📊 Interactive Chart with Recharts for visualizing payment statuses
 
-## 📸 Capturas de Tela
+💼 Sales Dashboard with total sales, received amounts, and pending receivables
 
-### 🧭 Tela Principal e gráfico de pagamentos
+🔁 Dynamic Routes with React Router
 
-![Tela inicial](/screenshots/resumo.png)
+📦 Organization by status: paid, processing, failed
 
----
+🌓 Dark mode interface
 
-## 🚀 Funcionalidades
+🛠️ Technologies Used
+⚛️ React
 
-- 📊 **Gráfico Interativo** com Recharts para visualização de status de pagamentos
-- 💼 **Dashboard de Vendas** com valores totais vendidos, recebidos e a receber
-- 🔁 **Rotas Dinâmicas** com React Router
-- 📦 Organização por status: `pago`, `processando`, `falha`
-- 🌓 Interface em **dark mode**
+🟦 TypeScript
 
----
+📈 Recharts
 
-## 🛠️ Tecnologias Utilizadas
+🧭 React Router DOM
 
-- ⚛️ **React**
-- 🟦 **TypeScript**
-- 📈 **Recharts**
-- 🧭 **React Router DOM**
-- 🎨 **CSS via `style.css` e `CSSProperties` inline**
-- ⚡ **Vite**
+🎨 CSS via style.css and inline CSSProperties
 
----
+⚡ Vite
 
-## 🧪 Como Rodar Localmente
+🧪 How to Run Locally
+Bash
 
-```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone https://github.com/Darwin3333/fintech-dashboard.git
 
-# 2. Acesse a pasta
+# 2. Access the folder
 cd fintech-dashboard
 
-# 3. Instale as dependências
+# 3. Install the dependencies
 npm install
 
-# 4. Rode a aplicação
+# 4. Run the application
 npm run dev
-```
