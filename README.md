@@ -1,6 +1,12 @@
 💰 Fintech Dashboard
 The Fintech Dashboard is a web application developed with React + TypeScript, focused on providing a clear, responsive, and interactive visualization of financial data. The interface offers insights into sales, receipts, and pending amounts, with visual representation in charts and indicators.
 
+# 💰 Fintech Dashboard
+
+![Prévia do Dashboard](/screenshots/resumo.png)
+
+O **Fintech Dashboard** é uma aplicação web...
+
 🖼️ Overview
 A modern dark mode interface with a focus on:
 
